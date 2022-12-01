@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Constantine Yefimov</Authors>
+    <Company>LiquidCore Solutions LLC</Company>
+    <Product>LiquidCore Collectice</Product>
+    <Description>Library for Dependency Injection package. Allows to register sets of services. Inspired by Simple Injector https://simpleinjector.org</Description>
+    <Copyright>Copyright (C) 2022 LiquidCore Solutions LLC. All rights reserved.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
